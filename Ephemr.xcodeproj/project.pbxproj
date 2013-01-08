@@ -24,6 +24,7 @@
 		577C9168169CB4850075E26B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 577C9167169CB4850075E26B /* second@2x.png */; };
 		577C916B169CB4850075E26B /* SKFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577C9169169CB4850075E26B /* SKFirstViewController.xib */; };
 		577C916E169CB4850075E26B /* SKSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577C916C169CB4850075E26B /* SKSecondViewController.xib */; };
+		577C9175169CBBF50075E26B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577C9174169CBBF50075E26B /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		577C9167169CB4850075E26B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		577C916A169CB4850075E26B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SKFirstViewController.xib; sourceTree = "<group>"; };
 		577C916D169CB4850075E26B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SKSecondViewController.xib; sourceTree = "<group>"; };
+		577C9174169CBBF50075E26B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				577C9175169CBBF50075E26B /* MobileCoreServices.framework in Frameworks */,
 				577C9144169CB4840075E26B /* UIKit.framework in Frameworks */,
 				577C9146169CB4840075E26B /* Foundation.framework in Frameworks */,
 				577C9148169CB4840075E26B /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +72,7 @@
 		577C9134169CB4840075E26B = {
 			isa = PBXGroup;
 			children = (
+				577C9174169CBBF50075E26B /* MobileCoreServices.framework */,
 				577C9149169CB4840075E26B /* Ephemr */,
 				577C9142169CB4840075E26B /* Frameworks */,
 				577C9140169CB4840075E26B /* Products */,

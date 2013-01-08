@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SKSecondViewController : UIViewController
+@interface SKSecondViewController : UIViewController <UIGestureRecognizerDelegate>
+
+@property (nonatomic, strong) UIImage* displayImage;
+@property (nonatomic, strong) IBOutlet UIImageView* displayImageView;
+@property (nonatomic, strong) IBOutlet UIImageView* maskImageView;
 
 @end

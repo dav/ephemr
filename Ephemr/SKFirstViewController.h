@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SKFirstViewController : UIViewController
+@interface SKFirstViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
+
+@property (nonatomic, strong) IBOutlet UIButton* pickButton;
+
+- (IBAction) pickTapped:(id)sender;
 
 @end
