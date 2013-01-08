@@ -14,7 +14,13 @@ If you start with this image:
 
 ![Unmasked original image](https://raw.github.com/dav/ephemr/master/doc/before.jpg "Unmasked Screenshot")
 
+
 Then the best screenshot you could take would be this:
 
 ![Masked image](https://raw.github.com/dav/ephemr/master/doc/after.jpg "Masked Screenshot")
 
+However by shifting the mask rapidly as the user drags their finger on the screen, the underlying image can be made out easily by the human mind.
+
+This is just a quickly kludged black grid mask. A more intelligent mask would use the colors of the underlying image to create a more altered image pattern.
+
+Possibly other optical tricks could be employed as well. The basic idea is to use the brain's powerful imaging system to make sense of imperfect images.
