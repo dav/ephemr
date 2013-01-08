@@ -12,12 +12,12 @@ This is a simple demo. The effect could be greatly improved by mask creation whi
 
 If you start with this image:
 
-![Unmasked original image](https://raw.github.com/dav/ephemr/master/doc/before.jpg "Unmasked Screenshot")
+![Unmasked original image](https://raw.github.com/dav/ephemr/master/doc/before.png "Unmasked Screenshot")
 
 
 Then the best screenshot you could take would be this:
 
-![Masked image](https://raw.github.com/dav/ephemr/master/doc/after.jpg "Masked Screenshot")
+![Masked image](https://raw.github.com/dav/ephemr/master/doc/after.png "Masked Screenshot")
 
 However by shifting the mask rapidly as the user drags their finger on the screen, the underlying image can be made out easily by the human mind.
 
